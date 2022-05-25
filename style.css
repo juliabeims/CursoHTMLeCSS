@@ -1,9 +1,11 @@
-body{
-    background-color: #CCCCCC;
-}
+
 
 #banner{
     width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
 }
 
 h1{
@@ -20,6 +22,14 @@ p{
 
 i b{
     color: red;
+}
+
+.beneficios{
+    background-color: white;
+}
+
+h2{
+    text-align: center;
 }
 
 .itens{
