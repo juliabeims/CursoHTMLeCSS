@@ -6,6 +6,7 @@
 
 .principal{
     background-color: #CCCCCC;
+    padding: 30px;
 }
 
 h1{
@@ -26,6 +27,7 @@ i b{
 
 .beneficios{
     background-color: white;
+    padding: 20px;
 }
 
 h2{
@@ -34,4 +36,15 @@ h2{
 
 .itens{
     font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+#imagemBeneficio{
+    width: 50%;
 }
