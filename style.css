@@ -1,4 +1,7 @@
 
+.tituloPrincipal{
+    padding-left: 20px;
+}
 
 #banner{
     width: 100%;
@@ -9,10 +12,10 @@
     padding: 30px;
 }
 
-h1{
-    text-align: center;   
+.titulo-centralizado{
+    text-align: center;
 }
-
+ 
 p{
     text-align: center;
 }
@@ -30,9 +33,7 @@ i b{
     padding: 20px;
 }
 
-h2{
-    text-align: center;
-}
+
 
 .itens{
     font-style: italic;
