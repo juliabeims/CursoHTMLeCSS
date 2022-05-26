@@ -1,0 +1,28 @@
+.cabecalho{
+    background-color: rgba(128, 128, 128, 0.849);
+    padding: 20px 0;/*espaçamento interno 20px para cima e pra baixo e 0 para direita e esquerda*/
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; /*para cima e para baixo é 0 e para direita e esquerda é automatico*/
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*espaçamento externo esquerda*/
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;/*tira o sublinhado*/
+}
