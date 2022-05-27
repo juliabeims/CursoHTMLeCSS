@@ -1,0 +1,35 @@
+header{
+    background: grey;
+    padding: 20px 0;
+}
+
+.headerDiv{
+    width: 940px;
+    position: relative;/*para o posicionamento absoluto da lista funcionar, a posição tem que ser relativa aqui ou absoluts*/
+    margin: 0 auto;
+}
+
+.listHeader{
+    position:absolute;
+    top:110px;
+    right: 0px;
+}
+
+.listHeader li{
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.listHeader a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.listHeader a:hover{
+    text-decoration: underline;
+    color: #C78C19;
+}
