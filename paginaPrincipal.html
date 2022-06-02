@@ -7,27 +7,53 @@
     <title>Barbearia</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="tituloPrincipal">Barbearia</h1>
+    <header class="cabecalho">
+        <div class="box">
+            <h1><img src="logo.png"></h1>
+            <nav>
+                <ul class="listHeader">
+                    <li><a href="paginaPrincipal.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-   <img id="banner" src="banner.jpg">
-   <div class="principal">
-        <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
-        <p>Localizada no coração da cidade a <b> Barbearia Alura</b> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-        <p id="missao"> <i>Nossa missão é: <b>"Proporcionar auto-estima e qualidade de vida aos clientes".</b></i> </p>
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-   </div>
-   <div class="beneficios">
-        <h3 class="titulo-centralizado">Beneficios</h3>
-        <ul>
-            <li class="itens">Atendimento ao cliente</li>
-            <li class="itens">Espaço diferenciado</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Profissionais qualificados</li>
-        </ul>
-        <img id="imagemBeneficio" src="beneficios.jpg" >
-   </div>
+    <img class="banner" src="banner.jpg">
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+            <img src="utensilios.jpg" alt="utensílios" class="utensilios">
+            <p>Localizada no coração da cidade a <b> Barbearia Alura</b> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <p class="missao"> <i>Nossa missão é: <b>"Proporcionar auto-estima e qualidade de vida aos clientes".</b></i> </p>
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </section>
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado aqui.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14164.48692026378!2d-48.40501763361574!3d-27.434316781289304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1654128158639!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+        <section class="beneficios">
+            <h3 class="titulo-principal">Beneficios</h3>
+            <ul>
+                <li class="itens">Atendimento ao cliente</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais qualificados</li>
+            </ul>
+            <img class="imagemBeneficio" src="beneficios.jpg" >
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>    
+        </section>
+    </main>
+    <footer>
+        <img src="logo-branco.png">
+        <p>&COPY; Copyright Julia</p>
+    </footer>
 </body>
 </html>
