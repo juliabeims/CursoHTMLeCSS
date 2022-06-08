@@ -35,10 +35,10 @@ nav a:hover{
     text-decoration: underline;
 }
 
-/*main{
+.mainsection{
     width: 940px;
     margin: 0 auto;
-}*/
+}
 
 form{
     margin: 40px 0;
@@ -251,7 +251,7 @@ footer p{
 }
 
 @media screen and (max-width:480px) {
-    .box, .principal, .mapa-conteudo, .beneficios-conteudo, .video{
+    .box, .principal, .mapa-conteudo, .beneficios-conteudo, .video, .cabecalho, .produtos, .mainsection{
         width: auto;
     }
     h1{
@@ -261,7 +261,26 @@ footer p{
     nav{
         position: static;
     }
-    .beneficios-lista, .imagemBeneficio{
+    .beneficios-lista, .imagemBeneficio, .inputStandart{
         width: 100%;
+    }
+    .produtos{
+        padding: 1em 0;
+    }
+    .produtos li, form {
+        display: block;
+        width: 90%;
+    }
+    table, .produtos li, form,.inputStandart {
+        margin: 1em auto;
+    }
+    .inputStandart{
+        box-sizing: border-box;
+        padding: 1em 1em;
+    }
+    select{
+        width: 50%;
+        font-size: 1em;
+        height: 2em;
     }
 }
